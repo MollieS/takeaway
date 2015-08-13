@@ -1,7 +1,7 @@
 class Restaurant
 
-  MENU = { pizza: "£10.00",
-            beer: "£7.00" }
+  MENU = { pizza: 10,
+            beer: 7 }
   
   def menu
     MENU
