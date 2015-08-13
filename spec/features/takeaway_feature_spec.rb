@@ -7,7 +7,7 @@ feature 'Ordering a takeaway' do
  let(:order) { Order.new(restaurant) }
 
   scenario 'viewing the menu' do
-    expect(restaurant.view_menu).to eq({ pizza: "£10.00", beer: "£7.00" })
+    expect(restaurant.menu).to eq({ pizza: "£10.00", beer: "£7.00" })
   end
 
   scenario 'adding an item' do
