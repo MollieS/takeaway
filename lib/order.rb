@@ -1,5 +1,12 @@
 class Order
-  def items
-    { beer: "£7.00" }
+  attr_reader :items
+
+  def initialize(restaurant)
+    @items = []
+    @restaurant = restaurant
+  end
+
+  def add_item(item, quantity = 1)
+
   end
 end
